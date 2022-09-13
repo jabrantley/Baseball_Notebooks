@@ -1,5 +1,7 @@
 This is a collection of notebooks related to baseball analysis. Some are more about the techniques and others are about interesting baseball stuff. The first several notebooks have to do with predicting on-base percentage (OBP). If there is one metric that has persisted into the post-moneyball era into today's statcast era, its the value of OBP. 
 
+NOTE: Some of these require very large Statcast files. The code is usually set to load the data by default, so if there is an error there, change to `True` and the data will be gathered and saved locally. 
+
 | Notebook | Description |
 | :---     | :---        |
 | 1_PredictingOBP-ML.ipynb| Prediciting end of season OBP given early season data. Focuses on regression and simple ML techniques |
